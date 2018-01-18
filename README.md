@@ -13,7 +13,7 @@ The final code is in the `smartcab/agent.py` python file. There are other files 
 
 I was not supposed to modify `smartcab/environment.py`, but I extended a little bit of its functionality (just the naming of the log files). The original functionality and interface still stays, no changes there.
 
-The final report is in report.html
+The final report is in `report.html`
 
 ### Run
 
