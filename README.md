@@ -9,7 +9,11 @@ This project requires **Python 2.7** with the [pygame](https://www.pygame.org/wi
 
 ### Code
 
-Template code is provided in the `smartcab/agent.py` python file. Additional supporting python code can be found in `smartcab/enviroment.py`, `smartcab/planner.py`, and `smartcab/simulator.py`. Supporting images for the graphical user interface can be found in the `images` folder. While some code has already been implemented to get you started, you will need to implement additional functionality for the `LearningAgent` class in `agent.py` when requested to successfully complete the project. 
+The final code is in the `smartcab/agent.py` python file. There are other files with similar names in that folder. The `agent_original.py` file is the original template file. The `agent_basic.py` is the basic agent, and the `agent_default.py` is the default agent. I didn't initialize a repository until the very end so there was no version control there. I decided not to delete them as they answer some of the earlier questions in the project.
+
+I was not supposed to modify `smartcab/environment.py`, but I extended a little bit of its functionality (just the naming of the log files). The original functionality and interface still stays, no changes there.
+
+The final report is in report.html
 
 ### Run
 
@@ -18,4 +22,4 @@ In a terminal or command window, navigate to the top-level project directory `sm
 ```python smartcab/agent.py```  
 ```python -m smartcab.agent```
 
-This will run the `agent.py` file and execute your agent code.
+This will run the `agent.py` file and execute the agent code.
